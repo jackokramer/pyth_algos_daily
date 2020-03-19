@@ -11,8 +11,8 @@ test2 =[2,1,4,5,6,10,35]
 print(reverseList(test))
 print(reverseList(test2))
 
-def reverseList(listy):
+def reverseLists(listy):
     half = int(len(listy)/2)
     for t in range(half):
-        listy[t], listy[len[listy]-1-t] = listy[len[listy]-1-t], listy[t]
+        listy[t], listy[len(listy)-1-t] = listy[len(listy)-1-t], listy[t]
         ## This is another way to do the assignment and its called Multi-Variable Assignment. where you compare one to one.
