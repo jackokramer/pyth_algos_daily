@@ -8,3 +8,13 @@ def countDown(lst):
     return countback
 print(countDown(7))
 print(countDown(12))
+
+## Print and Return - Create a function that will receive a list with two numbers. Print the first value and return the second.
+#Example: print_and_return([1,2]) should print 1 and return 2
+
+def print_n_return(lst):
+    print(lst[0])
+    return lst[1]
+
+print(print_n_return([7,12]))
+
