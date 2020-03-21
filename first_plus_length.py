@@ -22,5 +22,13 @@ def values_greater_than_second(nums):
     print(len(new_list))
     return new_list
 
-    print(values_greater_than_second([1,2,29,3,0, 8,9]))
+#print(values_greater_than_second([1,2,29,3,0, 8,9]))
 
+## This Length that Value - Write a function that accepts two inetgers as parameters : size and value. This function should create and return a list whose length is equal to the given size, and whose values are all the given value.
+def thisLengthThatValue(size, value):
+    newly = []
+    for y in range(size):
+        newly.append(value)
+    return newly
+
+print(thisLengthThatValue(8,21))
